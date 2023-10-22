@@ -1,0 +1,120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-3146126822434311657
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Wormhole material
+  m_Shader: {fileID: -6465566751694194690, guid: 336119f293aedc34bb1c6ddafe3fd48e,
+    type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _USE_DETAILS_1
+  - _USE_DETAILS_2
+  - _USE_MANUAL_TIME
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Details_1_texture:
+        m_Texture: {fileID: 2800000, guid: f5f10dc3c0ad756429782c3db1d186f3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Details_2_texture:
+        m_Texture: {fileID: 2800000, guid: 700bf77c576beb245b318b905ed42ef7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Details_texture_1:
+        m_Texture: {fileID: 2800000, guid: f5f10dc3c0ad756429782c3db1d186f3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Details_texture_2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Noise_texture:
+        m_Texture: {fileID: 2800000, guid: 56d1037e974a98c4ba050076974d3979, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Ambient_colour_magnitude: 0.35
+    - _Details_1_distortion_density: 11.99
+    - _Details_1_distortion_frequency: 0.1
+    - _Details_1_distortion_jaggedness: 10
+    - _Details_1_distortion_jiggle_speed: 0.1
+    - _Details_1_distortion_magnitude: 0.05
+    - _Details_1_intensity: 0.8
+    - _Details_1_scroll_speed: 1
+    - _Details_2_distortion_frequency: 0.1
+    - _Details_2_distortion_jaggedness: 10
+    - _Details_2_distortion_jiggle_speed: 0.1
+    - _Details_2_distortion_magnitude: 0.05
+    - _Details_2_distortion_wobblyness: 10
+    - _Details_2_scroll_speed: 1.2
+    - _Details_scroll_speed: 0.6
+    - _Details_tiling_vertical: 0
+    - _Fresnel_power: 6
+    - _Manual_time: 1
+    - _Noise_colour_magnitude: 0.3
+    - _Noise_magnitude: 5
+    - _Noise_scale: 0.55
+    - _Noise_scroll_speed: 0.6
+    - _Noise_tiling: 1
+    - _Noise_tiling_horizontal: 2
+    - _Noise_tiling_vertical: 1
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _Time_multiplier: 1
+    - _Twist_frequency: 1
+    - _Twist_magnitude: 5
+    - _Twist_speed: 2
+    - _USE_DETAILS_1: 1
+    - _USE_DETAILS_2: 1
+    - _USE_MANUAL_TIME: 1
+    m_Colors:
+    - _Colour: {r: 0.34117648, g: 0.854902, b: 0.9176471, a: 1}
+    - _Details_1_colour: {r: 22.627417, g: 0.79861474, b: 0.79861474, a: 1}
+    - _Details_1_tiling: {r: 1, g: 0.25, b: 0, a: 0}
+    - _Details_2_colour: {r: 15.497374, g: 15.497374, b: 15.497374, a: 1}
+    - _Details_2_tiling: {r: 1, g: 1, b: 0, a: 0}
+    - _Details_colour: {r: 0.7924528, g: 0.20558919, b: 0.20558919, a: 1}
+    - _Noise_tiling: {r: 3, g: 1, b: 0, a: 0}
+    - _Wormhole_colour: {r: 0.09878961, g: 0.51541924, b: 0.5660378, a: 1}
+  m_BuildTextureStacks: []
